@@ -14,7 +14,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-class Clockworkgeek_VideoWidget_Block_Youtube extends Mage_Core_Block_Template
+class Clockworkgeek_VideoWidget_Block_Youtube extends Mage_Core_Block_Template implements
+    Mage_Widget_Block_Interface
 {
 
     protected function _construct()
